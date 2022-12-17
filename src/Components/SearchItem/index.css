@@ -1,0 +1,73 @@
+.list-container {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-text {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #64748b;
+  align-self: center;
+  font-weight: bold;
+}
+.img-container {
+  display: flex;
+  align-self: center;
+  margin-left: 80px;
+}
+
+.domine-container {
+  display: flex;
+  align-self: center;
+}
+
+.domine-name {
+  color: #6697ff;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.img-logo {
+  height: 30px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.logo-img-container {
+  display: flex;
+  align-self: center;
+}
+
+.button {
+  background-color: #ffffff;
+  border-width: 0px;
+}
+
+@media (max-width: 767px) {
+  .domine-container {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+
+  .img-container {
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  .logo-img-container {
+    align-self: flex-start;
+  }
+  .list-container {
+    width: 100%;
+    background-color: red;
+  }
+
+  .time-text {
+    align-self: flex-start;
+  }
+  .logo-img-container {
+    align-self: flex-start;
+  }
+}
