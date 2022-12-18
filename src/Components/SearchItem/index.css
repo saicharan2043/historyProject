@@ -40,8 +40,9 @@
 }
 
 .button {
-  background-color: #ffffff;
   border-width: 0px;
+  background-color: #ffffff;
+  margin-right: 10px;
 }
 
 @media (max-width: 767px) {
@@ -53,21 +54,34 @@
   }
 
   .img-container {
-    flex-direction: column;
+    flex-direction: row;
     align-self: flex-start;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    margin: 0px;
   }
   .logo-img-container {
+    display: flex;
+    flex-direction: column;
     align-self: flex-start;
   }
   .list-container {
     width: 100%;
-    background-color: red;
+    margin-bottom: 30px;
   }
 
   .time-text {
     align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
   }
-  .logo-img-container {
-    align-self: flex-start;
+  .domine-name {
+    margin: 0px;
+  }
+  .button {
+    align-self: center;
   }
 }

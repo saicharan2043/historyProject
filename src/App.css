@@ -70,6 +70,7 @@ body {
   border-radius: 10px;
   width: 90%;
   margin-top: 60px;
+
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .un-list-container {
@@ -93,4 +94,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 767px) {
+  .nav-bg-color {
+    height: 10vh;
+  }
+  .history-img {
+    height: 30px;
+  }
+  .input {
+    width: 300px;
+  }
 }
